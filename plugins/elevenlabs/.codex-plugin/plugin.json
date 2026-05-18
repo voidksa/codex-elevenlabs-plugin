@@ -1,0 +1,46 @@
+{
+  "name": "elevenlabs",
+  "version": "0.1.5",
+  "description": "Use ElevenLabs from Codex with a locally stored API key and MCP tools for speech, voices, audio cleanup, sound effects, music, dubbing, and transcription.",
+  "author": {
+    "name": "voidksa",
+    "url": "https://github.com/voidksa"
+  },
+  "homepage": "https://github.com/voidksa/codex-elevenlabs-plugin",
+  "repository": "https://github.com/voidksa/codex-elevenlabs-plugin",
+  "license": "MIT",
+  "keywords": [
+    "elevenlabs",
+    "text-to-speech",
+    "speech-to-text",
+    "mcp",
+    "api-key"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "ElevenLabs",
+    "shortDescription": "Generate and work with ElevenLabs audio from Codex",
+    "longDescription": "Use ElevenLabs from Codex through a local MCP server. This community plugin is maintained at github.com/voidksa/codex-elevenlabs-plugin. Configure ElevenLabs once on your computer, then generate speech with guided voices and v3 delivery presets, inspect voices, check quota, create sound effects or music, isolate audio, convert voices, dub media, and transcribe audio without pasting secrets into every request.",
+    "developerName": "voidksa",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/voidksa/codex-elevenlabs-plugin",
+    "privacyPolicyURL": "https://elevenlabs.io/privacy",
+    "termsOfServiceURL": "https://elevenlabs.io/terms",
+    "defaultPrompt": [
+      "Check my ElevenLabs quota",
+      "List my ElevenLabs voices",
+      "Generate speech from this text",
+      "Create a cinematic sound effect"
+    ],
+    "brandColor": "#111111",
+    "composerIcon": "./assets/elevenlabs-rounded-icon.png",
+    "logo": "./assets/elevenlabs-rounded-icon.png",
+    "screenshots": []
+  }
+}

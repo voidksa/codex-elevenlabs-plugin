@@ -1,0 +1,11 @@
+{
+  "name": "codex-elevenlabs-plugin",
+  "version": "0.1.5",
+  "private": true,
+  "type": "module",
+  "description": "Local Codex MCP server for ElevenLabs.",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.20.0"
+  }
+}

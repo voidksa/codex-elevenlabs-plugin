@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "elevenlabs": {
+      "command": "powershell",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "./scripts/start-server.ps1"
+      ],
+      "env": {
+        "ELEVENLABS_BASE_URL": "https://api.elevenlabs.io"
+      },
+      "note": "Local ElevenLabs MCP server. Configure the key once with scripts/set-api-key.ps1 or set ELEVENLABS_API_KEY."
+    }
+  }
+}
